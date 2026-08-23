@@ -10,7 +10,7 @@ const studentRoutes =  require('./routes/studentRoutes')
 
 const app = express();
 app.use(cors({
-    origin: "https://school-dashboard.vercel.app",
+    origin: "https://school-ivory-mu.vercel.app",
     credentials: true
 }));
 app.use(express.json());
