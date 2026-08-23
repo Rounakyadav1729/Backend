@@ -10,7 +10,8 @@ const studentRoutes =  require('./routes/studentRoutes')
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "https://school-dashboard.vercel.app",
+    credentials: true
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
